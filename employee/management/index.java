@@ -3,8 +3,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class FirstPage extends JFrame implements ActionListener {
-    FirstPage()
+public class index extends JFrame implements ActionListener {
+    index()
     {
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
@@ -46,6 +46,6 @@ public class FirstPage extends JFrame implements ActionListener {
     }
 
     public static void main(String args[]){
-        new FirstPage();
+        new index();
     }
 }
